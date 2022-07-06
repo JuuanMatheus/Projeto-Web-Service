@@ -1,25 +1,21 @@
-# OriginSix
+# Projeto Web Service
 
 ![GitHub](https://img.shields.io/github/license/JuuanMatheus/NLW-6)
 
 ## :test_tube: Sobre o Projeto
 
-Em busca de práticar e evoluir o conhecimento de desenvolvimento web, resolvi participar da Next Level Week, evento no qual desenvolvemos um site com uma semana imersiva cheia de aprendizados.
+Este site surgiu como uma forma de juntar a proposta de projeto integrador do Centro Universitário ENIAC, dando apoio a um comércio local de um colega, além de buscar conhecimento e evolução.
 
 ## :iphone: Origin Six
 
-[OriginSix](https://juuanmatheus.github.io/OriginSix/) é uma página institucional no formato One Page, responsiva, para usar em diversos tipos de micro, pequena e média empresas. Contém as seguintes seções: Header, Navigation, Home, Sobre, Serviços, Depoimentos, Contato e Footer.
+[Projeto Web Service]É uma página criada para demonstrar os serviços de uma empresa, com um sistema de agendamento para visistas.
 
 ## :robot: Tecnologias
 
 :orange_circle: HTML
 :large_blue_circle: CSS
 :yellow_circle: JS
-
-## :violin: Autor
-
-- Empresa realizadora do Projeto: [Rocketseat](https://rocketseat.com.br/)
-- Instrutor do Projeto: [Mayk Brito](https://github.com/maykbrito)
+:white_circle: PHP
 
 ## :memo: Licença
 
