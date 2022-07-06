@@ -1,0 +1,31 @@
+#home .inicio {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inicio {
+  padding: 8rem;
+}
+
+.imagens {
+  order: 1;
+}
+
+.image {
+  width: 49%;
+  border-radius: 0.8rem;
+}
+
+li {
+  font: 500 1.8rem 'DM sans', sans-serif;
+}
+
+.texto {
+  padding-left: 10%;
+  padding-right: 6%;
+  padding-bottom: 8%;
+}

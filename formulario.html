@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Richsey</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/formulario.css" />
+
+    <!-- FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav class="container">
+        <p class="logo"><span>R</span>ichsey.</p>
+        <div class="menu">
+          <ul>
+            <li><a class="title" href="index.html">Inicio</a></li>
+            <li><a class="title" href="sobre.html">Sobre</a></li>
+            <li><a class="title" href="servicos.html">Serviços</a></li>
+            <li><a class="title" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section" id="home">
+        <div class="inicio">
+          <h1>Agende seu horário</h1>
+          <hr />
+        </div>
+        <div class="formulario">
+          <form method="post" action="agendamento.php">
+            <fieldset>
+              <div class="agenda">
+                <label>Data Para Agendamento:</label>
+                <input type="date" name="dia" />
+
+                <label>Horário:</label>
+                <input type="time" name="horario" /> <br />
+              </div>
+              <div class="agenda">
+                <label>Nome:</label>
+                <input type="text" name="nome" />
+
+                <label>Contato:</label>
+                <input type="text" name="contato" />
+
+                <label>CPF:</label>
+                <input type="text" name="cpf" />
+              </div>
+              <div class="agenda">
+                <label>CEP:</label>
+                <input type="text" name="cep" />
+
+                <label>Bairo:</label>
+                <input type="text" name="bairro" />
+              </div>
+              <div>
+                <label>Rua:</label>
+                <input type="text" name="rua" />
+
+                <label>Número:</label>
+                <input type="text" name="numero" />
+              </div>
+              <div>
+                <div class="mensage">
+                  <label>Informe seu problema:</label> <br />
+                </div>
+                <textarea
+                  class="caixa"
+                  name="mensage"
+                  cols="120"
+                  rows="6"
+                  placeholder="Digite aqui ..."
+                ></textarea>
+              </div>
+            </fieldset>
+            <div class="enviar">
+              <button type="submit" class="button">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

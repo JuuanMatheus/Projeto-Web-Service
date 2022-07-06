@@ -1,0 +1,73 @@
+main {
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  border: 0.6rem outset var(--blue);
+  border-radius: 5rem;
+  padding: 4rem;
+  width: 80%;
+  margin-left: 14rem;
+
+  background: #f0f8ff;
+
+  -webkit-box-shadow: 1px 1px 20px var(--blue);
+}
+
+.section {
+  font: 500 1.4rem 'DM sans', sans-serif;
+}
+
+form {
+  color: var(--black);
+}
+
+hr {
+  border-bottom: 0.1rem solid;
+  background: linear-gradient(to left, rgb(79, 105, 107), rgb(53, 0, 243));
+  height: 3px;
+}
+
+.formulario {
+  padding-top: 2.5rem;
+}
+
+input {
+  border: 0.1rem solid var(--black);
+  border-radius: 0.4rem;
+  background: var(--background);
+  padding: 0.7rem;
+}
+
+.enviar {
+  padding-left: 85rem;
+  padding-top: 1rem;
+}
+
+.agenda {
+  padding-bottom: 1rem;
+}
+
+.caixa {
+  border: 0.1rem solid var(--black);
+  border-radius: 0.4rem;
+  background: var(--background);
+  font: 500 1.4rem 'DM sans', sans-serif;
+}
+
+textarea {
+  resize: none;
+  margin-left: 2rem;
+}
+
+.mensage {
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+label {
+  padding-left: 2rem;
+  display: inline-block;
+}

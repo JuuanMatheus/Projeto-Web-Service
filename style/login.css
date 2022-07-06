@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  align-items: center;
+  padding-top: 8rem;
+}
+
+section {
+  border: 0.6rem outset var(--blue);
+  border-radius: 5rem;
+  padding: 4rem;
+  width: 30%;
+  margin: 0 auto;
+
+  text-align: center;
+  background: #f0f8ff;
+
+  -webkit-box-shadow: 1px 1px 20px var(--blue);
+}
+
+.section {
+  font: 500 1.4rem 'DM sans', sans-serif;
+}
+
+form {
+  color: var(--black);
+}
+
+hr {
+  border-bottom: 0.1rem solid;
+  background: linear-gradient(to left, rgb(144, 219, 224), rgb(68, 0, 255));
+  height: 3px;
+}
+
+.formulario {
+  padding-top: 2.5rem;
+}
+
+input {
+  border: 0.1rem solid var(--black);
+  border-radius: 0.4rem;
+  background: var(--background);
+  padding: 1rem;
+}
+
+.entrar {
+  order: 1;
+  padding-left: 10rem;
+  padding-top: 3rem;
+}
+
+.diviser {
+  padding-top: 2rem;
+}

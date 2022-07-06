@@ -1,0 +1,40 @@
+#home .inicio {
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inicio {
+  padding: 8rem;
+}
+
+.texto {
+  padding-left: 9%;
+  padding-right: 6%;
+}
+
+.button i {
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+.local {
+  padding-top: 34rem;
+}
+
+footer .logo {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.logof {
+  font: 700 3rem 'Poppins', sans-serif;
+  color: var(--black);
+  padding-left: 6rem;
+}
+
+.logof span {
+  color: var(--blue);
+}

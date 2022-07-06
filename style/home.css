@@ -1,0 +1,29 @@
+#home .inicio {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.inicio {
+  padding: 8rem;
+}
+
+.image {
+  order: 1;
+  border-radius: 1rem;
+}
+
+.texto {
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 8%;
+  text-align: center;
+}
+
+.diviser {
+  text-align: center;
+  padding-top: 4%;
+}
